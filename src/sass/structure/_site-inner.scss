@@ -1,0 +1,13 @@
+/* Site Inner
+--------------------------------------------- */
+
+.site-inner {
+  clear: both;
+  margin: 0 auto;
+  padding: 60px 30px 0;
+
+  @media only screen and (min-width: $standard-screen-width) {
+    max-width: 1140px;
+    margin-top: 70px;
+  }
+}

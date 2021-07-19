@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>To do list</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <div class="site-inner">
+      <header>
+        <div class="header-row row">
+          <div class="header-image">
+            <img src="images/todo-icon.png" alt="Girl in a jacket">
+          </div>
+          <div class="date-info">
+            <div class="wrap">
+              <p id="display-date"></p>
+              <p id="display-time"></p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="row">
+        <h1>To do lists</h1>
+      </div>
+      <div class="row">
+        <div id="progress-bar">
+          <div id="task-progress"></div>
+        </div>
+      </div>
+      <div class="row">
+        <form>
+          <input id="item" type="text" placeholder="Add new task">
+        </form>
+        <h2>Tasks</h2>
+        <ul class="checkmark" id="drop-zone"></ul>
+        <button>Clear All</button>
+      </div>
+    </div>
+  </div>
+<script src="js/scripts.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

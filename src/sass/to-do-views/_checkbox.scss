@@ -1,0 +1,76 @@
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.newcheckmark {
+  position: absolute;
+  top: 14%;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .newcheckmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .newcheckmark {
+  background-color: #2196f3;
+}
+
+/* Create the newcheckmark/indicator (hidden when not checked) */
+.newcheckmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the newcheckmark when checked */
+.container input:checked ~ .newcheckmark:after {
+  display: block;
+}
+
+/* Style the newcheckmark/indicator */
+.container .newcheckmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label.container.completed {
+  color: red;
+  text-decoration: line-through;
+} /*This is the MDN spec for doing this*/
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,67 @@
+/* Genesis
+--------------------------------------------- */
+
+.after-entry {
+	margin-bottom: 40px;
+	padding: 20px 30px;
+	box-shadow: 0 0 $box-shadow-blur-radius rgba(0, 0, 0, $box-shadow-opacity);
+
+	@media only screen and (min-width: $standard-screen-width) {
+		margin-bottom: 60px;
+		padding: 40px 60px;
+	}
+
+	.widget:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.breadcrumb {
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: $border-width $border-style $border-color;
+	font-size: $breadcrumb--font-size;
+	color: $breadcrumb--font-color;
+	
+	a {
+		color: $breadcrumb-link--font-color;
+	}
+	
+	a:hover{
+		color: $breadcrumb-link--font-color-hover;
+	}
+
+}
+
+
+.archive-description {
+	margin-bottom: 40px;
+
+	@media only screen and (min-width: $standard-screen-width) {
+		margin-bottom: 60px;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	.entry-title {
+		margin-bottom: 10px;
+		font-size: $archive-author-box__entry-title--font-size;
+		font-weight: $font-weight--semibold;
+	}
+}
+
+.author-box {
+	margin-bottom: 40px;
+
+	@media only screen and (min-width: $standard-screen-width) {
+		margin-bottom: 60px;
+		padding: 30px;
+		background-color: $author-box--background-color;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

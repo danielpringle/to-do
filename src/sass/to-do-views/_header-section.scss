@@ -1,0 +1,31 @@
+.header-row {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 127, 80, 0.7);
+  padding: 20px;
+}
+
+.header-image {
+  img {
+    width: 150px;
+  }
+}
+
+.date-info {
+  .wrap {
+    padding: 40px 0px;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+p#display-date {
+  //position: absolute;
+  //bottom: 30px;
+}
+
+p#display-time {
+  //position: absolute;
+  //bottom: 0;
+}

@@ -1,0 +1,96 @@
+// Base Typography
+//=================
+
+// Font families
+$base-font: 'Lato', sans-serif;
+$body-font: 'Lato', sans-serif;
+$headings-font: 'Lato', sans-serif;
+
+// Font families
+$body--font-family: $base-font;
+$headings--font-family: $base-font;
+
+// Font sizes
+
+$rem-fallback: true;
+$rem-baseline: 10px;
+
+$html--font-size: 62.5%;
+$body--font-size: 18px;
+
+// Header
+//==================
+$site-title--font-size: 2rem;
+
+// Navigation
+//===========
+$genesis-nav-menu--font-size: 1.5rem;
+$genesis-nav-menu__sub-menu__link--font-size: 1.4rem;
+
+// Entry Content
+//===================
+$entry-title--font-size: 3rem;
+$entry-content__caption--font-size: 1.4rem;
+$entry-meta--font-size: 1.6rem;
+// Footer
+//==================
+$footer-widgets--font-size: 1.8rem;
+$site-footer--font-size: 1.5rem;
+
+// Sidebar
+//===================
+$sidebar--font-size: 1.6rem;
+
+// Headings
+//===========
+$h1--font-size: 30px; //3rem;
+$h2--font-size: 27px; // 2.7rem;
+$h3--font-size: 24px; //2.4rem;
+$h4--font-size: 20px; //2rem;
+$h5--font-size: 18px; //1.8rem;
+$h6--font-size: 16px; //1.6rem;
+
+// Breadcrumbs
+//===========
+$breadcrumb--font-size: 1.6rem;
+// Buttons
+//===========
+$button--font-size: 1.6rem;
+
+// Forms
+//===========
+$forms--font-size: 1.8rem;
+
+// Comments
+//===================
+$comments--font-size: 1.8rem;
+
+// Widgets
+//===================
+$widget-title--font-size: 1.8rem;
+$featured-content__entry-title--font-size: 1.6rem;
+$enews-widget__input--font-size: 1.6rem;
+
+// Elements
+//===========
+$archive-author-box__entry-title--font-size: 2rem;
+$archive-pagination--font-size: 1.6rem;
+$blockquote__before--font-size: 3rem;
+$after-entry__breadcrumb--font-size: 1.6rem;
+
+// Plugins
+//===================
+
+// Font weights
+$font-weight--regular: 400;
+$font-weight--semibold: 600;
+$font-weight--bold: 700;
+
+// Line heights
+$line-height--big: 20px;
+$line-height--large: 1.75;
+$line-height--normal: 1.625;
+$line-height--medium: 1.5;
+$line-height--medium-small: 1.4;
+$line-height--small: 1.2;
+$line-height--smaller: 1;

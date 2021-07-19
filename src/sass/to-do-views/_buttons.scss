@@ -1,0 +1,30 @@
+button.delete {
+  width: auto;
+  padding: 5px 10px;
+  border: 0;
+  color: #fff;
+  background-color: #ff7f50;
+  font-size: 1.6rem;
+  font-weight: 600;
+  white-space: normal;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  margin-top: 3px;
+}
+
+button.clear-all {
+  width: auto;
+  border: 0;
+  color: #fff;
+  background-color: coral;
+  font-size: 1.6rem;
+  font-weight: 600;
+  white-space: normal;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  border-radius: 4px;
+  padding: 0.75rem 1.25rem;
+  margin-top: 25px;
+}

@@ -1,0 +1,18 @@
+{
+"css.validate": false,
+"less.validate": false,
+"scss.validate": false,
+"prettier.stylelintIntegration": true,
+"[css]": {
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[js]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}

@@ -1,0 +1,52 @@
+/* Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px;
+  font-family: $headings--font-family;
+  font-weight: $font-weight--regular;
+  line-height: $line-height--small;
+}
+/*
+h1 {
+  font-size: $h1--font-size;
+}
+*/
+
+h1 {
+  @include rem(font-size, $h1--font-size);
+}
+
+h2 {
+  @include rem(font-size, $h2--font-size);
+}
+
+.entry-content h3,
+.entry-content h4 {
+  font-weight: $font-weight--semibold;
+}
+
+h3 {
+  @include rem(font-size, $h3--font-size);
+}
+
+h4 {
+  @include rem(font-size, $h4--font-size);
+}
+
+.entry-content h4 {
+  margin-top: 40px;
+}
+
+h5 {
+  @include rem(font-size, $h5--font-size);
+}
+
+h6 {
+  @include rem(font-size, $h6--font-size);
+}

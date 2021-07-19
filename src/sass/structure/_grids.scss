@@ -1,0 +1,144 @@
+
+.grid {
+	height: 50px; 
+	background-color: #333;
+	  color: white;
+	  font-size: 3rem;
+	  text-align: center;
+    margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
+/* Block Column Classes
+	--------------------------------------------- */
+	
+@media only screen and (min-width: 960px) {	
+
+	.block-five-sixths,
+	.block-four-sixths,
+	.block-one-fourth,
+	.block-one-half,
+	.block-one-sixth,
+	.block-one-third,
+	.block-three-fourths,
+	.block-three-sixths,
+	.block-two-fourths,
+	.block-two-sixths,
+	.block-two-thirds {
+		float: left;
+		margin-left: 2%;
+	}
+
+	.block-one-half,
+	.block-three-sixths,
+	.block-two-fourths {
+		width: 49%;
+	}
+
+	.block-one-third,
+	.block-two-sixths {
+		width: 32%;
+	}
+
+	.block-four-sixths,
+	.block-two-thirds {
+		width: 66%;
+	}
+
+	.block-one-fourth {
+		width: 23.5%;
+	}
+
+	.block-three-fourths {
+		width: 74.5%;
+	}
+
+	.block-one-sixth {
+		width: 15%;
+	}
+
+	.block-five-sixths {
+		width: 80%;
+	}
+
+	.block-first {
+		clear: both;
+		margin-left: 0;
+	}
+}
+
+
+/* X Block Column Classes
+	--------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+	.block-five-sixths-tablet-fifty,
+	.block-four-sixths-tablet-fifty,
+	.block-one-fourth-tablet-fifty,
+	.block-one-half-tablet-fifty,
+	.block-one-sixth-tablet-fifty,
+	.block-one-third-tablet-fifty,
+	.block-three-fourths-tablet-fifty,
+	.block-three-sixths-tablet-fifty,
+	.block-two-fourths-tablet-fifty,
+	.block-two-sixths-tablet-fifty,
+	.block-two-thirds-tablet-fifty {
+		float: left;
+		margin-left: 2%;
+	}	
+	
+	.block-one-fourth-tablet-fifty {
+		width: 49%;
+	}
+
+   .block-one-fourth-tablet-fifty:nth-child(1){
+	clear: both;
+	margin-left: 0;
+	background: red;
+	}
+	
+	.block-one-fourth-tablet-fifty:nth-child(3){
+	clear: both;
+	margin-left: 0;
+	background: red;
+	}
+	/*
+    .block-one-fourth.tablet-fifty{
+	clear: both;
+	margin-left: 2%;
+	background: orange;
+	}
+	*/
+	.tablet-fifty:nth-child(even){
+	clear: both;	
+	background: blue;
+	}
+	
+
+	
+
+}	
+
+
+@media only screen and (min-width: 960px) {	
+
+.x-block-one-fourth {
+		width: 23.5%;
+	}
+	
+   .x-block-one-fourth:nth-child(3){
+	clear: none;
+	margin-left: 2%;
+	background: blue;
+	}
+	
+
+	
+	
+	
+}

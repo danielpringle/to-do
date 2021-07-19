@@ -1,0 +1,136 @@
+/* Buttons
+------------------------------------------------------------ */
+
+button {
+	width: auto;
+	padding: 15px 30px;
+	border: 0;
+	color: $button--font-color;
+	background-color: $button--background-color;
+	font-size: $button--font-size;
+	font-weight: $font-weight--semibold;
+	white-space: normal;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:focus,
+	&:hover {
+		color: $button--font-color-hover;
+		background-color: $button--background-color-hover;
+	}
+
+	&.small {
+		padding: 8px 16px;
+	}
+}
+
+.button {
+	display: inline-block;
+	width: auto;
+	padding: 15px 30px;
+	border: 0;
+	color: $button--font-color;
+	background-color: $button--background-color;
+	font-size: $button--font-size;
+	font-weight: $font-weight--semibold;
+	white-space: normal;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:focus,
+	&:hover {
+		color: $button--font-color-hover;
+		background-color: $button--background-color-hover;
+	}
+
+	.entry-content &:focus,
+	.entry-content &:hover {
+		color: $button--font-color-hover;
+	}
+}
+
+a.button.small {
+	padding: 8px 16px;
+}
+
+/* Button - Colours
+------------------------------------------------------------ */
+ 
+.button--blue,
+.button--grey,
+.button--green,
+.button--purple,
+.button--red,
+.button--yellow {
+    color: $button--font-color;
+    padding: 15px 30px;
+}
+ 
+.button--blue:hover,
+.button--grey:hover,
+.button--green:hover,
+.button--purple:hover,
+.button--red:hover,
+.button--yellow:hover {
+    text-decoration: none;
+}
+ 
+.button--blue {
+    background-color: $button--background-blue;
+    border: 1px solid $button--background-blue;
+}
+ 
+.button--blue:hover {
+    background-color: $button--background-blue-hover;
+    border: 1px solid $button--background-blue-hover;
+}
+ 
+.button--grey {
+    background-color: $button--background-grey;
+    border: 1px solid $button--background-grey;
+}
+ 
+.button--grey:hover {
+    background-color: $button--background-grey-hover;
+    border: 1px solid $button--background-grey-hover;
+}
+ 
+.button--green {
+    background-color: $button--background-green;
+    border: 1px solid $button--background-green;
+}
+ 
+.button--green:hover {
+    background-color: $button--background-green-hover;
+    border: 1px solid $button--background-green-hover;
+}
+ 
+.button--purple {
+    background-color: $button--background-purple;
+    border: 1px solid $button--background-purple;
+}
+ 
+.button--purple:hover {
+    background-color: $button--background-purple-hover;
+    border: 1px solid $button--background-purple-hover;
+}
+ 
+.button--red {
+    background-color: $button--background-red;
+    border: 1px solid $button--background-red;
+}
+ 
+.button--red:hover {
+    background-color: $button--background-red-hover;
+    border: 1px solid $button--background-red-hover;
+}
+ 
+.button--yellow {
+    background-color: $button--background-yellow;
+    border: 1px solid $button--background-yellow;
+}
+ 
+.button--yellow:hover {
+    background-color: $button--background-yellow-hover;
+    border: 1px solid $button--background-yellow-hover;
+}
