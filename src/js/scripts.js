@@ -218,8 +218,10 @@ function beDate() {
 
   const displayWeekday = weekday[currentDate.getDay()];
   const displayMonth = months[currentDate.getMonth()];
-  const formatted = `${displayWeekday}, ${displayMonth} ${date} ${year}`;
-  document.getElementById('display-date').innerHTML = formatted;
+  const formattedDay = `${displayWeekday}`;
+  const formattedDate = `${displayMonth} ${date} ${year}`;
+  document.getElementById('display-day').innerHTML = formattedDay;
+  document.getElementById('display-date').innerHTML = formattedDate;
 }
 beDate();
 /**
