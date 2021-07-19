@@ -2,14 +2,22 @@
 --------------------------------------------------- */
 
 .site-footer {
-	padding: 30px;
-	border-top: $border-width $border-style $border-color;
-	background-color: #fff;
-	font-size: $site-footer--font-size;
-	line-height: $line-height--medium;
-	text-align: center;
+  padding: 30px;
+  border-top: $border-width $border-style $border-color;
+  background-color: #fff;
+  font-size: $site-footer--font-size;
+  line-height: $line-height--medium;
+  text-align: center;
+  max-width: 1140px;
+  clear: both;
+  margin: 0 auto;
 
-	p {
-		margin-bottom: 0;
-	}
+  p {
+    margin-bottom: 0;
+  }
+}
+
+#footer {
+  clear: both;
+  height: 50px;
 }
