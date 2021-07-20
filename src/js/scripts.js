@@ -1,5 +1,5 @@
 // Create variables for our page elements
-const form = document.querySelector('form');
+const taskForm = document.querySelector('form');
 const ul = document.querySelector('ul');
 const clearAllButton = document.querySelector('button');
 const input = document.getElementById('item');
@@ -14,7 +14,7 @@ const data = JSON.parse(localStorage.getItem('items'));
 
 // Add a class to our clearAllButton
 clearAllButton.className = 'clear-all';
-form.className = 'todo-form';
+taskForm.className = 'todo-form';
 
 // We'll create a function to handle our progress bar.
 /**
@@ -42,7 +42,7 @@ percentage();
  * Appends the list item to the ul.
  * We'll also run the percentage function again to update the frontend.
  */
-const liMaker = (text) => {
+const taskLi = (text) => {
   // create our variables
   const li = document.createElement('li');
   const deleteTaskButton = document.createElement('button');
@@ -155,20 +155,20 @@ function addTask(e) {
   // We'll push any new input value into the array, then set the localStorage to the new, updated value.
   itemsArray.push(input.value);
   localStorage.setItem('items', JSON.stringify(itemsArray));
-  // Lets call the liMaker() function. This will create the item with the text of the input value and append it to the DOM.
-  liMaker(input.value);
+  // Lets call the taskLi() function. This will create the item with the text of the input value and append it to the DOM.
+  taskLi(input.value);
   // Lets set the input value to an empty string so we don't have to remove the last item entered manually.
   input.value = '';
 }
-form.addEventListener('submit', addTask);
+taskForm.addEventListener('submit', addTask);
 
 /**
  * We'll loop through our items which has all the existing localStorage data in a form JavaScript can understand.
- * We'll run the liMaker() again to show display all the existing stored information on the front end every time the app is opened.
+ * We'll run the taskLi() again to show display all the existing stored information on the front end every time the app is opened.
  */
 
 data.forEach((item) => {
-  liMaker(item);
+  taskLi(item);
 });
 
 /**
